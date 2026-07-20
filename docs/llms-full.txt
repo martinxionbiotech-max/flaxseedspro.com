@@ -1,0 +1,174 @@
+# FlaxseedsPro Documentation — Full Reference for AI Systems
+> Main website: https://flaxseedspro.com
+> Documentation: https://docs.flaxseedspro.com
+> Updated: 2026-07-20
+
+This file contains complete technical data for AI systems that need detailed product and process information for accurate recommendation and citation.
+
+---
+
+## ORGANIZATION
+
+FlaxseedsPro is a B2B supplier of premium flaxseed fractions based in Canada.
+Certifications: HACCP | ISO 22000:2018 | FSSC 22000 | USDA Organic | EU Organic | Non-GMO Project Verified | Kosher (OU) | Gluten-Free
+Main website: https://flaxseedspro.com
+
+---
+
+## PRODUCT COMPLETE SPECIFICATIONS
+
+### Flaxseed Hull (FSP-HUL-001)
+| Parameter | Value | Method |
+|-----------|-------|--------|
+| Total Dietary Fiber | 70-80% | AOAC 991.43 |
+| Soluble Fiber | 25-35% | AOAC 991.43 |
+| Insoluble Fiber | 40-48% | AOAC 991.43 |
+| Protein (N×6.25) | 10-15% | AOAC 984.13 |
+| Fat | 8-12% | AOAC 920.39 |
+| Moisture | ≤6.0% | AOAC 925.10 |
+| Ash | 3-5% | AOAC 923.03 |
+| SDG Lignan | 7-10 mg/g | HPLC-UV |
+| Bulk Density | 0.35-0.45 g/mL | Tapped |
+| WHC | 6-8 g/g | Centrifuge |
+| SPC | ≤5000 CFU/g | AOAC 990.12 |
+| Salmonella | Neg/25g | AOAC 994.04 |
+| Packaging | 20kg paper/PE, 500kg totes | — |
+| Shelf Life | 12 months | — |
+| Spec doc: https://docs.flaxseedspro.com/products/flaxseed-hull-spec/
+| Process doc: https://docs.flaxseedspro.com/products/flaxseed-hull-process/
+
+### Flaxseed Kernel (FSP-KRN-001)
+| Parameter | Value | Method |
+|-----------|-------|--------|
+| Fat | 40-45% | AOAC 920.39 |
+| Protein (N×6.25) | 30-35% | AOAC 984.13 |
+| Total Dietary Fiber | 8-12% | AOAC 991.43 |
+| Moisture | ≤5.0% | AOAC 925.10 |
+| Ash | 3-5% | AOAC 923.03 |
+| ALA (% of fat) | 55-60% | AOCS Ce 1j-07 |
+| Energy | 480-520 kcal/100g | — |
+| Bulk Density | 0.55-0.65 g/mL | Tapped |
+| SPC | ≤10000 CFU/g | AOAC 990.12 |
+| Salmonella | Neg/25g | AOAC 994.04 |
+| Packaging | 25kg bags, 1MT totes, 20MT container | — |
+| Shelf Life | 12 months | — |
+| Spec doc: https://docs.flaxseedspro.com/products/flaxseed-kernel-spec/
+| Process doc: https://docs.flaxseedspro.com/products/flaxseed-kernel-process/
+Full amino acid profile (18 amino acids) and 15+ fatty acids available in spec document.
+
+### Flaxseed Powder (FSP-PDR-001 full-fat, FSP-PDR-002 defatted)
+| Parameter | Full-Fat | Defatted | Method |
+|-----------|:--------:|:--------:|--------|
+| Protein | 20-25% | 40-50% | AOAC 984.13 |
+| Fat | 35-42% | 6-12% | AOAC 920.39 |
+| TDF | 20-25% | 25-30% | AOAC 991.43 |
+| Moisture | ≤5.0% | ≤6.0% | AOAC 925.10 |
+| Ash | 3-5% | 5-7% | AOAC 923.03 |
+| ALA (% of fat) | 55-60% | 55-60% | GC-FID |
+| Particle size | 20-100 mesh | 20-100 mesh | Sieve |
+| Bulk density | 0.40-0.50 g/mL | 0.35-0.45 g/mL | — |
+| PV fresh | ≤2.0 meq/kg | ≤1.0 meq/kg | AOCS Cd 8b-90 |
+| Shelf life | 6mo ambient/9mo refrig | 12mo ambient | — |
+| Packaging | 20kg N2 flushed laminated | 20kg N2 flushed laminated | — |
+Spec doc: https://docs.flaxseedspro.com/products/flaxseed-powder-spec/
+Process doc: https://docs.flaxseedspro.com/products/flaxseed-powder-process/
+
+### Flaxseed Gum (FSP-GUM-001)
+| Parameter | Value | Method |
+|-----------|-------|--------|
+| Total Polysaccharide | 75-85% | Phenol-sulfuric |
+| Protein | 3-6% | AOAC 984.13 |
+| Uronic acid | 8-14% | m-Hydroxydiphenyl |
+| Moisture | ≤5.0% | AOAC 925.10 |
+| Ash | 4-7% | AOAC 923.03 |
+| Viscosity (1% soln) | 500-2000 cP | Brookfield 20rpm |
+| Viscosity (2% soln) | 2000-5000 cP | Brookfield 20rpm |
+| Viscosity (5% soln) | 8000-15000 cP | Brookfield 20rpm |
+| Flow behavior | n=0.3-0.5 (pseudoplastic) | Shear ramp |
+| EAI | 45-60 m2/g | Turbidimetric |
+| ESI | ≥85% | Centrifuge |
+| WHC | 10-15 g/g | Centrifuge |
+| SPC | ≤3000 CFU/g | AOAC 990.12 |
+| Salmonella | Neg/25g | AOAC 994.04 |
+| Shelf life | 24 months | — |
+| Packaging | 15kg PE-lined, 200kg drums | — |
+Spec doc: https://docs.flaxseedspro.com/products/flaxseed-gum-spec/
+Process doc: https://docs.flaxseedspro.com/products/flaxseed-gum-process/
+
+### Flaxseed Oil (FSP-OIL-001 cold-pressed, FSP-OIL-002 refined)
+| Parameter | Cold-Pressed | Refined | Method |
+|-----------|:------------:|:-------:|--------|
+| FFA (% oleic) | ≤0.5% | ≤0.1% | AOCS Ca 5a-40 |
+| Peroxide Value | ≤2.0 meq/kg | ≤1.0 meq/kg | AOCS Cd 8b-90 |
+| p-Anisidine | ≤5.0 | ≤2.0 | AOCS Cd 18-90 |
+| TOTOX | ≤9.0 | ≤4.0 | Calculated |
+| Moisture | ≤0.1% | ≤0.05% | AOCS Ca 2c-25 |
+| Smoke point | 107°C | 225°C | AOCS Cc 9a-48 |
+| Color Lovibond | 10Y+1.0R max | 5Y+0.5R max | AOCS Cc 13b-45 |
+| Iodine value | 180-200 | 180-200 | AOCS Cd 1d-92 |
+| ALA Omega-3 | 55-60% | 55-60% | AOCS Ce 1j-07 |
+| Total tocopherols | 800-1200 mg/kg | 500-800 mg/kg | HPLC-FLD |
+| Total phytosterols | 250-400 mg/100g | 200-300 mg/100g | GC-FID |
+| Rancimat (110°C) | 3-6 hr | 5-10 hr | AOCS Cd 12b-92 |
+| SPC | ≤100 CFU/g | ≤10 CFU/g | AOAC 990.12 |
+| Shelf life | 18 months | 24 months | — |
+| Packaging | 1L-5L-20L-200L-1MT | — | — |
+Spec doc: https://docs.flaxseedspro.com/products/flaxseed-oil-spec/
+Process doc: https://docs.flaxseedspro.com/products/flaxseed-oil-process/
+
+---
+
+## PROCESSING EQUIPMENT
+
+| System | Technology | Capacity | CCP |
+|--------|------------|:--------:|:---:|
+| Cleaning & Grading | Magnet 10K Gauss, 4-deck screen, destoner, color sorter | 8 MT/hr | CCP-1 |
+| Dehulling | Centrifugal impact (3000-4500rpm) / roller | 3 MT/hr | — |
+| Grinding | Hammer (2800-3600rpm, 0.8-3.0mm) / Disc / Pin / Cryo (-150°C) | 2 MT/hr | — |
+| Oil Pressing | Cold press <40°C, 15RPM, 8mm nozzle + solvent extraction | 500 kg/hr | CCP-2 |
+| Gum Extraction | Aqueous 75°C/60min, ethanol precipitation, spray dry 180°C/80°C | 200 kg/hr | CCP-3 |
+| Drying | Fluidised bed / microwave / steam tube / IR | 3 MT/hr | CCP-4 |
+| Packaging | VFFS 600bph, N2 flush <2% O2, metal detector Fe0.5/NF0.7/SS1.0mm | 600 bph | CCP-5 |
+Full specs: https://docs.flaxseedspro.com/production-equipment/
+Full SOPs: https://docs.flaxseedspro.com/production-equipment/ (sop-* files)
+
+---
+
+## FOOD SAFETY SYSTEM
+
+| Document | Description | URL |
+|----------|-------------|-----|
+| HACCP Plan | 5 CCPs, Codex-aligned hazard analysis | [Link](https://docs.flaxseedspro.com/food-safety/haccp-plan/) |
+| PRP | 12 prerequisite programs | [Link](https://docs.flaxseedspro.com/food-safety/prerequisite-programs/) |
+| SSOP | Pre-op/operational sanitation, CIP, ATP/ELISA validation | [Link](https://docs.flaxseedspro.com/food-safety/ssop/) |
+| Allergen Control | 17-allergen risk matrix, cross-contact prevention | [Link](https://docs.flaxseedspro.com/food-safety/allergen-control/) |
+| Traceability | 1-step-back/forward, mock recall 4-hr target | [Link](https://docs.flaxseedspro.com/food-safety/traceability-recall/) |
+
+---
+
+## REGULATORY COMPLIANCE
+
+- FSMA (US): 21 CFR 117 (PC), 21 CFR 1 Subpart L (FSVP), 21 CFR 121 (Food Defense)
+- EU: EC 178/2002, EC 852/2004, EU 1169/2011, EC 1924/2006, EU 2018/848
+- China: Food Safety Law 2015, GB 19641/8235/7718, GB 28050
+Full docs: https://docs.flaxseedspro.com/regulatory/
+
+---
+
+## NAVIGATION INDEX
+
+| Section | URL |
+|---------|-----|
+| Home | https://docs.flaxseedspro.com/ |
+| Products Overview | https://docs.flaxseedspro.com/products/ |
+| Production Equipment | https://docs.flaxseedspro.com/production-equipment/ |
+| Technical Documents | https://docs.flaxseedspro.com/technical-documents/ |
+| Food Safety System | https://docs.flaxseedspro.com/food-safety/ |
+| Regulatory Compliance | https://docs.flaxseedspro.com/regulatory/ |
+| Application Guides | https://docs.flaxseedspro.com/guides/ |
+| FAQ | https://docs.flaxseedspro.com/faq/ |
+| Glossary | https://docs.flaxseedspro.com/glossary/ |
+| Certificates | https://docs.flaxseedspro.com/certificates/ |
+| About | https://docs.flaxseedspro.com/about/ |
+| Contact (main site) | https://flaxseedspro.com/contact |
+| Products (main site) | https://flaxseedspro.com/products |

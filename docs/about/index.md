@@ -36,4 +36,4 @@ All technical content is structured to demonstrate processing expertise and qual
 | Technical | tech@flaxseedspro.com |
 | Quality | quality@flaxseedspro.com |
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Request samples, quotations, or technical support.**
+**→ [Contact FlaxseedsPro Sales](https://flaxseedspro.com/contact) — Request samples, quotations, or technical support for hull, kernel, powder, gum, and oil.**

@@ -4,28 +4,86 @@
   {% set org_name = "FlaxseedsPro" %}
   {% set org_url = "https://flaxseedspro.com" %}
   {% set doc_url = "https://docs.flaxseedspro.com" %}
+  {% set page_url = doc_url ~ "/" ~ page.url %}
+  {% set desc = page.meta.get('description', page.title ~ ' — Technical documentation for ' ~ config.site_description) %}
+  {% set page_type = 'article' if 'technical-documents' in page.url or 'food-safety' in page.url or 'regulatory' in page.url else 'website' %}
+  {% set is_product = 'products/' in page.url and 'spec' in page.url %}
+  {% set is_faq = 'faq/' in page.url %}
+  {% set is_glossary = 'glossary/' in page.url %}
+  {% set is_sop = 'sop-' in page.url %}
+  {% set is_tech = 'technical-documents/' in page.url %}
+  {% set today = "2026-07-20" %}
 
-  <!-- 1. Organization -->
+  <!-- ============================================================ -->
+  <!-- META DESCRIPTION & CHARSET -->
+  <!-- ============================================================ -->
+  <meta name="description" content="{{ desc }}">
+  {% if is_product %}
+    <meta name="keywords" content="flaxseed hull, flaxseed kernel, flaxseed powder, flaxseed gum, flaxseed oil, {% if page.url %}{{ page.title }}{% endif %}, B2B flaxseed, wholesale flaxseed">
+  {% elif is_sop %}
+    <meta name="robots" content="noarchive">
+  {% endif %}
+  <meta name="author" content="{{ config.site_author }}">
+
+  <!-- ============================================================ -->
+  <!-- OPEN GRAPH -->
+  <!-- ============================================================ -->
+  <meta property="og:type" content="{{ page_type }}">
+  <meta property="og:title" content="{{ page.title }} — {{ config.site_name }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:locale" content="en_US">
+  {% if is_product %}
+    <meta property="og:image" content="{{ doc_url }}/assets/images/logo.svg">
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- TWITTER CARD -->
+  <!-- ============================================================ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} — {{ config.site_name }}">
+  <meta name="twitter:description" content="{{ desc }}">
+  <meta name="twitter:site" content="@FlaxseedsPro">
+
+  <!-- ============================================================ -->
+  <!-- DATE METADATA (freshness signal) -->
+  <!-- ============================================================ -->
+  <meta name="date" content="{{ today }}">
+  <meta name="dc.date" content="{{ today }}">
+
+  <!-- ============================================================ -->
+  <!-- 1. ORGANIZATION SCHEMA (every page) -->
+  <!-- ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "FlaxseedsPro",
     "url": "{{ org_url }}",
-    "description": "Premium B2B supplier of flaxseed fractions — hull, kernel, powder, gum, and oil.",
+    "logo": "{{ org_url }}/assets/images/logo.svg",
+    "description": "Premium B2B supplier of flaxseed fractions — hull, kernel, powder, gum, and oil. HACCP | ISO 22000 | FSSC 22000 | Organic.",
     "sameAs": [
-      "https://linkedin.com/company/flaxseedspro"
-    ]
+      "https://linkedin.com/company/flaxseedspro",
+      "https://twitter.com/flaxseedspro"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "CA"
+    }
   }
   </script>
 
-  <!-- 2. WebSite (main site) -->
+  <!-- ============================================================ -->
+  <!-- 2. WEBSITE SCHEMA (every page — points to main site) -->
+  <!-- ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "FlaxseedsPro",
     "url": "{{ org_url }}",
+    "description": "Premium B2B supplier of flaxseed fractions.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "{{ org_url }}/?q={search_term_string}",
@@ -34,14 +92,16 @@
   }
   </script>
 
-  <!-- 3. WebPage (current documentation page) -->
+  <!-- ============================================================ -->
+  <!-- 3. WEBPAGE SCHEMA (every page — points authority to main site) -->
+  <!-- ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "{{ page.title }} — FlaxseedsPro Documentation",
-    "description": "{{ page.meta.get('description', '') }}",
-    "url": "{{ doc_url }}/{{ page.url }}",
+    "description": "{{ desc }}",
+    "url": "{{ page_url }}",
     "isPartOf": {
       "@type": "WebSite",
       "name": "FlaxseedsPro Documentation",
@@ -51,11 +111,15 @@
       "@type": "Organization",
       "name": "FlaxseedsPro",
       "url": "{{ org_url }}"
-    }
+    },
+    "datePublished": "{{ today }}",
+    "dateModified": "{{ today }}"
   }
   </script>
 
-  <!-- 4. BreadcrumbList -->
+  <!-- ============================================================ -->
+  <!-- 4. BREADCRUMB (dynamic per page depth) -->
+  <!-- ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -77,11 +141,165 @@
         "@type": "ListItem",
         "position": 3,
         "name": "{{ page.title }}",
-        "item": "{{ doc_url }}/{{ page.url }}"
+        "item": "{{ page_url }}"
       }
     ]
   }
   </script>
+
+  <!-- ============================================================ -->
+  <!-- 5. PRODUCT SCHEMA (product spec pages only) -->
+  <!-- ============================================================ -->
+  {% if is_product %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ page.title }} — FlaxseedsPro",
+    "description": "{{ desc }}",
+    "url": "{{ page_url }}",
+    "category": "Flaxseed Fractions",
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "FlaxseedsPro",
+      "url": "{{ org_url }}"
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "USD",
+      "url": "{{ org_url }}"
+    }
+  }
+  </script>
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- 6. FAQPAGE SCHEMA (FAQ page only) -->
+  <!-- ============================================================ -->
+  {% if is_faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the ALA omega-3 content of your flaxseeds?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our whole flaxseeds contain 52-57% ALA as a percentage of total fatty acids. Cold-pressed oil contains 55-60% ALA."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between cold-pressed and solvent-extracted flaxseed oil?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cold-pressed oil is extracted mechanically below 40°C, preserving native flavour and antioxidants. Solvent extraction achieves higher yield (99% vs 35%) and is used for defatted meal production."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What food safety certifications do you hold?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "HACCP, ISO 22000:2018, FSSC 22000, USDA Organic, Non-GMO Project Verified, Kosher (OU), and Gluten-Free Certified."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are your minimum order quantities?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "1 MT for standard products, 500 kg for powders, 200 L for oil. Organic products require 500 kg minimum."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should flaxseed products be stored?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cool, dry conditions (<25°C, <60% RH), away from direct sunlight. Refrigerate oil after opening. Full-fat powder shelf life: 6 months ambient, 9 months refrigerated."
+        }
+      }
+    ]
+  }
+  </script>
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- 7. TECHARTICLE SCHEMA (technical docs, food safety) -->
+  <!-- ============================================================ -->
+  {% if is_tech or 'food-safety/' in page.url or 'regulatory/' in page.url or 'production-equipment/' in page.url %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "name": "{{ page.title }} — FlaxseedsPro",
+    "description": "{{ desc }}",
+    "url": "{{ page_url }}",
+    "author": {
+      "@type": "Organization",
+      "name": "FlaxseedsPro"
+    },
+    "proficiencyLevel": "Professional",
+    "about": {
+      "@type": "Organization",
+      "name": "FlaxseedsPro",
+      "url": "{{ org_url }}"
+    },
+    "datePublished": "{{ today }}",
+    "dateModified": "{{ today }}"
+  }
+  </script>
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- 8. DEFINEDTERMSET SCHEMA (glossary page only) -->
+  <!-- ============================================================ -->
+  {% if is_glossary %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "FlaxseedsPro Glossary — Flaxseed Industry Terminology",
+    "description": "Technical terminology for flaxseed processing, quality control, and food safety.",
+    "url": "{{ page_url }}",
+    "hasDefinedTerm": [
+      { "@type": "DefinedTerm", "name": "ALA", "description": "Alpha-linolenic acid (C18:3n-3). Essential omega-3 fatty acid found in flaxseed oil at 55-60% of total fat." },
+      { "@type": "DefinedTerm", "name": "Cold Pressing", "description": "Mechanical oil extraction at temperatures below 40°C without solvent or heat pre-treatment." },
+      { "@type": "DefinedTerm", "name": "SDG Lignan", "description": "Secoisolariciresinol diglucoside. Principal lignan in flaxseed hull with antioxidant properties." },
+      { "@type": "DefinedTerm", "name": "HACCP", "description": "Hazard Analysis Critical Control Point. Systematic food safety preventive system." }
+    ]
+  }
+  </script>
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- 9. HOWTO SCHEMA (SOP pages only) -->
+  <!-- ============================================================ -->
+  {% if is_sop %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "{{ page.title }} — FlaxseedsPro Standard Operating Procedure",
+    "description": "Standard operating procedure for flaxseed processing equipment.",
+    "url": "{{ page_url }}",
+    "about": {
+      "@type": "Organization",
+      "name": "FlaxseedsPro",
+      "url": "{{ org_url }}"
+    }
+  }
+  </script>
+  {% endif %}
+
+  <!-- ============================================================ -->
+  <!-- 10. MAIN SITE AUTHORITY ANCHOR (hidden — for AI context) -->
+  <!-- ============================================================ -->
+  <link rel="canonical" href="{{ page_url }}">
 {% endblock %}
 
 {% block content %}
@@ -96,9 +314,17 @@
         {{ config.copyright }}
       </div>
       <div class="md-footer-links">
-        <a href="https://flaxseedspro.com" title="Main Website">FlaxseedsPro.com</a>
-        &nbsp;|&nbsp;
-        <a href="{{ config.site_url }}about/" title="Contact">Contact</a>
+        <strong style="color:white;font-size:0.8rem;">
+          <a href="https://flaxseedspro.com" style="color:#ffab00;" title="FlaxseedsPro Main Website — Premium Flaxseed Fractions for Industry">
+            FlaxseedsPro.com
+          </a>
+        </strong>
+        &nbsp;—&nbsp;
+        <a href="https://flaxseedspro.com/products" title="Flaxseed Products Catalog">Products</a>
+        &nbsp;·&nbsp;
+        <a href="https://flaxseedspro.com/contact" title="Contact FlaxseedsPro Sales">Contact</a>
+        &nbsp;·&nbsp;
+        <a href="{{ doc_url }}/about/" title="About FlaxseedsPro">About</a>
       </div>
     </div>
   </div>

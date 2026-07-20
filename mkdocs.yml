@@ -2,8 +2,8 @@
 # FlaxseedsPro Documentation — Everything exists for the main website
 
 site_name: FlaxseedsPro Documentation
-site_description: Technical documentation for premium flaxseed processing — hull, kernel, powder, gum, and oil fractions. HACCP | ISO 22000 | Organic.
-site_url: https://flaxseedspro.com
+site_description: Technical documentation for premium flaxseed processing — hull, kernel, powder, gum, and oil fractions. HACCP | ISO 22000 | Organic | FSSC 22000.
+site_url: https://docs.flaxseedspro.com
 site_author: FlaxseedsPro
 
 repo_url: https://github.com/flaxseedspro/docs
@@ -71,29 +71,84 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
   - Products:
-      - products/index.md
-      - Flaxseed Hull: products/flaxseed-hull.md
-      - Flaxseed Kernel: products/flaxseed-kernel.md
-      - Flaxseed Powder: products/flaxseed-powder.md
-      - Flaxseed Gum: products/flaxseed-gum.md
-      - Flaxseed Oil: products/flaxseed-oil.md
+      - Overview: products/index.md
+      - Flaxseed Hull:
+          - Specification: products/flaxseed-hull-spec.md
+          - Process & Workflow: products/flaxseed-hull-process.md
+      - Flaxseed Kernel:
+          - Specification: products/flaxseed-kernel-spec.md
+          - Process & Workflow: products/flaxseed-kernel-process.md
+      - Flaxseed Powder:
+          - Specification: products/flaxseed-powder-spec.md
+          - Process & Workflow: products/flaxseed-powder-process.md
+      - Flaxseed Gum:
+          - Specification: products/flaxseed-gum-spec.md
+          - Process & Workflow: products/flaxseed-gum-process.md
+      - Flaxseed Oil:
+          - Specification: products/flaxseed-oil-spec.md
+          - Process & Workflow: products/flaxseed-oil-process.md
+
   - Production Equipment:
-      - production-equipment/index.md
-      - Cleaning & Grading: production-equipment/cleaning-grading.md
-      - Dehulling & Separation: production-equipment/dehulling-separation.md
-      - Grinding & Milling: production-equipment/grinding-milling.md
-      - Oil Pressing: production-equipment/oil-pressing.md
-      - Gum Extraction: production-equipment/gum-extraction.md
-      - Drying & Stabilization: production-equipment/drying-stabilization.md
-      - Packaging & Storage: production-equipment/packaging-storage.md
+      - Overview: production-equipment/index.md
+      - Cleaning & Grading:
+          - Technical Spec: production-equipment/cleaning-grading-spec.md
+          - SOP: production-equipment/sop-cleaning-grading.md
+      - Dehulling & Separation:
+          - Technical Spec: production-equipment/dehulling-separation-spec.md
+          - SOP: production-equipment/sop-dehulling.md
+      - Grinding & Milling:
+          - Technical Spec: production-equipment/grinding-milling-spec.md
+          - SOP: production-equipment/sop-grinding.md
+      - Oil Pressing:
+          - Technical Spec: production-equipment/oil-pressing-spec.md
+          - SOP: production-equipment/sop-oil-pressing.md
+      - Gum Extraction:
+          - Technical Spec: production-equipment/gum-extraction-spec.md
+          - SOP: production-equipment/sop-gum-extraction.md
+      - Drying & Stabilization:
+          - Technical Spec: production-equipment/drying-stabilization-spec.md
+          - SOP: production-equipment/sop-drying.md
+      - Packaging & Storage:
+          - Technical Spec: production-equipment/packaging-storage-spec.md
+          - SOP: production-equipment/sop-packaging.md
+
   - Technical Documents:
-      - technical-documents/index.md
+      - Overview: technical-documents/index.md
       - Processing Technology: technical-documents/processing-technology.md
+      - Process Control & Automation: technical-documents/process-control.md
       - Quality Control: technical-documents/quality-control.md
+      - Quality Validation: technical-documents/quality-validation.md
+
+  - Food Safety System:
+      - Overview: food-safety/index.md
+      - HACCP Plan: food-safety/haccp-plan.md
+      - Prerequisite Programs: food-safety/prerequisite-programs.md
+      - Sanitation SSOP: food-safety/ssop.md
+      - Allergen Control: food-safety/allergen-control.md
+      - Traceability & Recall: food-safety/traceability-recall.md
+      - Supplier Approval: food-safety/supplier-approval.md
+      - Calibration Program: food-safety/calibration-program.md
+
+  - Regulatory Compliance:
+      - Overview: regulatory/index.md
+      - FSMA (USA): regulatory/fsma-compliance.md
+      - EU Regulations: regulatory/eu-compliance.md
+      - China Regulations: regulatory/china-compliance.md
+
+  - Application Guides:
+      - Overview: guides/index.md
+      - Hull Application: guides/product-application-hull.md
+      - Oil Application: guides/product-application-oil.md
+      - Powder Application: guides/product-application-powder.md
+      - Gum Application: guides/product-application-gum.md
+      - Storage & Handling: guides/storage-handling.md
+      - Food Safety Compliance: guides/food-safety-compliance.md
+      - Supply Chain: guides/supply-chain.md
+
   - FAQ: faq/index.md
   - Glossary: glossary/index.md
-  - Guides: guides/index.md
   - Research: research/index.md
   - White Papers: white-papers/index.md
   - Certificates: certificates/index.md

@@ -24,7 +24,6 @@ Raw Seed → Cleaning → Dehulling → Air Classification
 Raw Seed → Cleaning → Dehulling → Kernel → Oil Pressing
                                             ├── Oil → Filtration → Refining → Bottled Oil
                                             └── Cake → Solvent Extraction → Defatted Meal
-                                                              └── Crude Oil → Refining
 Hull → Aqueous Extraction → Concentrate → Spray Dry → Gum Powder
 ```
 

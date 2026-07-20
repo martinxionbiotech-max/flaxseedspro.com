@@ -1,30 +1,42 @@
-# FlaxseedsPro Documentation — LLM Reference
+# FlaxseedsPro Documentation
+> Technical documentation for premium flaxseed fractions — hull, kernel, powder, gum, and oil.
+> Main website: https://flaxseedspro.com
+> Full reference: https://docs.flaxseedspro.com/llms-full.txt
 
 ## About
+FlaxseedsPro is a B2B supplier of technically-defined flaxseed fractions. Facility: HACCP / ISO 22000 / FSSC 22000 / Organic (USDA/EU) / Kosher (OU) / Non-GMO / Gluten-Free.
 
-FlaxseedsPro is a B2B supplier of technically-defined flaxseed fractions. Products are produced under HACCP / ISO 22000 / FSSC 22000 / Organic / Kosher / Non-GMO / Gluten-Free certification.
-
-## Core Products
-
-- **Flaxseed Hull**: Fiber 70–80%, SDG 7–10 mg/g, WHC 6–8 g/g
-- **Flaxseed Kernel**: Protein 30–35%, Fat 40–45%, ALA 55–60% of fat
-- **Flaxseed Powder**: Full-fat (protein 20–25%) / Defatted (protein 40–50%), 20–80 mesh
-- **Flaxseed Gum**: Polysaccharide 75–85%, viscosity 500–5000 cP (1% solution)
-- **Flaxseed Oil**: 12 quality parameters, ALA 55–60%, tocopherols 800–1200 ppm
+## Products
+- [Flaxseed Hull](https://docs.flaxseedspro.com/products/flaxseed-hull-spec/): TDF 70-80%, SDG 7-10 mg/g, WHC 6-8 g/g
+- [Flaxseed Kernel](https://docs.flaxseedspro.com/products/flaxseed-kernel-spec/): Protein 30-35%, Fat 40-45%, ALA 55-60%
+- [Flaxseed Powder](https://docs.flaxseedspro.com/products/flaxseed-powder-spec/): Full-fat (protein 20-25%) / Defatted (protein 40-50%), 20-100 mesh
+- [Flaxseed Gum](https://docs.flaxseedspro.com/products/flaxseed-gum-spec/): Polysaccharide 75-85%, viscosity 500-5000 cP (1% solution)
+- [Flaxseed Oil](https://docs.flaxseedspro.com/products/flaxseed-oil-spec/): ALA 55-60%, tocopherols 800-1200 ppm, 15 quality parameters
 
 ## Processing
-
-- Cleaning: Magnet (10K Gauss) → Vibrating Screen → Destoner → Color Sorter
-- Dehulling: Centrifugal impact / Roller → Air / Gravity classification
-- Grinding: Hammer / Disc / Pin mill + Cryogenic (–150°C) option
-- Oil: Cold press (<40°C) → Plate filter → Polish filter → N₂ flush
-- Gum: Extraction → Centrifuge → Spray dry → Ethanol recovery
+- Cleaning: 10K Gauss Magnet → Vibrating Screen → Destoner → Color Sorter (8 MT/hr)
+- Dehulling: Centrifugal / Roller → Air / Gravity classification (3 MT/hr, 85-90% efficiency)
+- Grinding: Hammer (2800-3600 rpm) / Disc / Pin + Cryogenic (-150°C)
+- Oil: Cold press (<40°C) → Plate filter → Polish filter → N2 flush
+- Gum: Aqueous extraction → Ethanol precipitation → Spray drying
+- Drying: Fluidised bed / Microwave / Steam / IR (3 MT/hr)
 
 ## Quality
+- HACCP: 5 CCPs (metal, oxidation, solvent, moisture, metal detection)
+- COA provided per batch: moisture, protein, fat, ALA, microbiology
+- Full micro panel: SPC, Y&M, coliforms, E. coli, Salmonella, L. mono, B. cereus
+- On-site lab: NIR, GC-FID, HPLC, Soxhlet, Kjeldahl, microbiology
 
-HACCP (5 CCPs), ISO 22000, FSSC 22000, Organic (USDA/EU), Kosher (OU), Non-GMO Verified, Gluten-Free Certified. COA provided per batch.
+## Key Specifications
+- ALA Omega-3: 52-57% (seed), 55-60% (oil) — AOCS Ce 1j-07
+- TDF: 27-28% (whole seed), 70-80% (hull) — AOAC 991.43
+- Protein: 18-24% (seed), 30-35% (kernel), 40-50% (defatted) — AOAC 984.13
+- Peroxide Value: ≤2.0 meq/kg (oil) — AOCS Cd 8b-90
+- Shelf Life: 12mo (whole seed), 6-9mo (milled), 18mo (oil)
+- Packaging: 20-25kg bags, 500kg-1MT totes, 200L drums, IBC, flexitank
 
 ## Links
-
 - Main website: https://flaxseedspro.com
+- Products: https://flaxseedspro.com/products
 - Documentation: https://docs.flaxseedspro.com
+- Contact: https://flaxseedspro.com/contact

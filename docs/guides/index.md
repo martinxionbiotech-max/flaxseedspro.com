@@ -1,17 +1,24 @@
-# Guides
+# Application Guides
+
+Technical formulation and application guidance for each flaxseed fraction.
 
 ---
 
-## Technical SOPs
-
-| Guide | Method | Application |
-|:------|:-------|:------------|
-| Moisture Determination | AOAC 925.10 — Oven drying at 105°C | All products |
-| Fat Determination | AOAC 920.39 — Soxhlet extraction | Seeds, meal, cake |
-| Protein Determination | AOAC 984.13 — Kjeldahl (N×6.25) | All products |
-| ALA Quantification | AOCS Ce 1j-07 — GC-FID | Oil, fatty samples |
-| Dietary Fiber | AOAC 991.43 — Enzymatic-gravimetric | Hull, powder |
+| Guide | Products Covered | Key Content |
+|:------|:-----------------|:------------|
+| [Hull Application](product-application-hull.md) | Flaxseed Hull | Fibre enrichment, SDG lignans, bakery/meat/dairy applications, water adjustment, label claims (EU/US/China) |
+| [Oil Application](product-application-oil.md) | Flaxseed Oil | Omega-3 formulation, oxidative stability, antioxidant strategies, dietary supplements, dressings, infant formula |
+| [Powder Application](product-application-powder.md) | Flaxseed Powder (Full-fat & Defatted) | Protein enrichment, bakery blends, meat analogues, dispersibility, water absorption, shelf life optimisation |
+| [Gum Application](product-application-gum.md) | Flaxseed Gum | Hydrocolloid functionality, viscosity comparison (guar/xanthan), clean-label emulsification, freeze-thaw stability |
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Full SOPs available to qualified buyers.**
+## Supporting Resources
+
+- [Storage & Handling Guide](storage-handling.md) — Best practices for product stability
+- [Food Safety Compliance](food-safety-compliance.md) — Regulatory requirements
+- [Supply Chain Guide](supply-chain.md) — Logistics, documentation, shipping
+
+---
+
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Professional Flaxseed Application Support & Formulation Services**

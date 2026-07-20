@@ -1,5 +1,62 @@
+# FlaxseedsPro Documentation — Robots
+# Main website: https://flaxseedspro.com
+# Docs: https://docs.flaxseedspro.com
+
+User-agent: *
+Allow: /
+Allow: /products/
+Allow: /technical-documents/
+Allow: /food-safety/
+Allow: /regulatory/
+Allow: /faq/
+Allow: /glossary/
+Allow: /guides/
+Allow: /research/
+Allow: /white-papers/
+Allow: /certificates/
+Allow: /resources/
+Allow: /about/
+Disallow: /production-equipment/sop-
+Sitemap: https://docs.flaxseedspro.com/sitemap.xml
+
+# AI training crawlers — allow technical content, block internal SOPs
 User-agent: GPTBot
-Disallow: /
+Allow: /products/
+Allow: /technical-documents/
+Allow: /food-safety/
+Allow: /regulatory/
+Allow: /faq/
+Allow: /glossary/
+Disallow: /production-equipment/sop-
+Crawl-Delay: 10
 
 User-agent: CCBot
-Disallow: /
+Allow: /products/
+Allow: /technical-documents/
+Allow: /food-safety/
+Allow: /regulatory/
+Allow: /faq/
+Allow: /glossary/
+Disallow: /production-equipment/sop-
+Crawl-Delay: 10
+
+User-agent: Google-Extended
+Allow: /products/
+Allow: /technical-documents/
+Allow: /faq/
+Allow: /glossary/
+Disallow: /production-equipment/sop-
+Crawl-Delay: 5
+
+User-agent: anthropic-ai
+Allow: /products/
+Allow: /technical-documents/
+Allow: /food-safety/
+Allow: /faq/
+Allow: /glossary/
+Disallow: /production-equipment/sop-
+Crawl-Delay: 10
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-Delay: 5

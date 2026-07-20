@@ -36,4 +36,4 @@ A: Yes. Free samples (1 kg) are available for qualified buyers. Shipping costs a
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com)**
+**→ [Buy Flaxseed at FlaxseedsPro.com](https://flaxseedspro.com/products) — Premium Flaxseed Fractions for Industry**

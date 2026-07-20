@@ -14,4 +14,4 @@
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — White paper downloads available to registered industry professionals.**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Flaxseed White Papers & Technical Reports. Access available to registered industry professionals.**

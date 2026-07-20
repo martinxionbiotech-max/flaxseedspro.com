@@ -24,4 +24,4 @@
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com)**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Flaxseed Industry Resources & Technical References**

@@ -29,4 +29,4 @@
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Certificate copies available on request.**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Certified Premium Flaxseed Supplier at [FlaxseedsPro Certifications](https://flaxseedspro.com/quality)**

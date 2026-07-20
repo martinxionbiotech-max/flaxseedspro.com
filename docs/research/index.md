@@ -14,4 +14,4 @@
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Full research publications available on request.**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Industry-Leading Flaxseed Research & Development. Full publications available on request.**
