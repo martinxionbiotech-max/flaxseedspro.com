@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://flaxseedspro.com/sitemap.xml
+
+# Block AI crawler training on proprietary technical documents
+User-agent: GPTBot
+Disallow: /technical-documents/
+Disallow: /white-papers/
+
+User-agent: CCBot
+Disallow: /technical-documents/
+Disallow: /white-papers/

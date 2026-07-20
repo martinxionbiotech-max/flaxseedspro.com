@@ -1,0 +1,133 @@
+site_name: FlaxseedsPro Documentation
+site_description: Comprehensive technical documentation for FlaxseedsPro premium flaxseed products, production processes, quality standards, and industry research.
+site_url: https://flaxseedspro.com
+site_author: FlaxseedsPro
+repo_url: https://github.com/flaxseedspro/docs
+repo_name: flaxseedspro/docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: indigo
+    accent: amber
+  font:
+    text: Roboto
+    code: Fira Code
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs
+    - content.tooltips
+    - header.autohide
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/flaxseedspro
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/flaxseedspro
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@flaxseedspro
+  generator: false
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+extra_css:
+  - assets/css/extra.css
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  - sitemap
+  - awesome-pages
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: material.extensions.emoji.twemoji
+      emoji_generator: material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Products:
+      - products/index.md
+      - Whole Brown Flaxseeds: products/whole-brown-flaxseeds.md
+      - Whole Golden Flaxseeds: products/whole-golden-flaxseeds.md
+      - Milled Flaxseed Meal: products/milled-flaxseed-meal.md
+      - Cold-Pressed Flaxseed Oil: products/cold-pressed-flaxseed-oil.md
+      - Organic Flaxseeds: products/organic-flaxseeds.md
+      - Flaxseed Protein Powder: products/flaxseed-protein-powder.md
+  - Production Equipment:
+      - production-equipment/index.md
+      - Cleaning & Sorting: production-equipment/cleaning-sorting.md
+      - Dehulling System: production-equipment/dehulling-system.md
+      - Milling & Grinding: production-equipment/milling-grinding.md
+      - Cold Press Oil Extraction: production-equipment/cold-press-oil-extraction.md
+      - Drying & Packaging: production-equipment/drying-packaging.md
+      - Quality Lab Equipment: production-equipment/quality-lab-equipment.md
+      - Storage & Conveying: production-equipment/storage-conveying.md
+      - Automation & Control: production-equipment/automation-control.md
+  - Technical Documents:
+      - technical-documents/index.md
+      - Specification Sheets: technical-documents/specification-sheets.md
+      - Processing Standards: technical-documents/processing-standards.md
+      - Quality Control Protocols: technical-documents/quality-control-protocols.md
+  - FAQ: faq/index.md
+  - Glossary: glossary/index.md
+  - Guides:
+      - guides/index.md
+      - Buyer's Guide: guides/buyers-guide.md
+      - Storage & Handling: guides/storage-handling.md
+      - Food Safety Compliance: guides/food-safety-compliance.md
+      - Supply Chain: guides/supply-chain.md
+  - Research:
+      - research/index.md
+      - Nutritional Studies: research/nutritional-studies.md
+      - Market Analysis: research/market-analysis.md
+      - Sustainability: research/sustainability.md
+  - White Papers:
+      - white-papers/index.md
+      - Omega-3 in Plant-Based Diets: white-papers/omega-3-plant-based.md
+      - Flaxseed Processing Technology: white-papers/flaxseed-processing-technology.md
+  - Certificates: certificates/index.md
+  - Resources: resources/index.md
+  - About: about/index.md
+
+copyright: Copyright &copy; 2026 FlaxseedsPro. All rights reserved.

@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% set org_name = "FlaxseedsPro" %}
+  {% set org_url = "https://flaxseedspro.com" %}
+  {% set org_logo = "https://flaxseedspro.com/assets/images/logo.svg" %}
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FlaxseedsPro",
+    "url": "{{ org_url }}",
+    "logo": "{{ org_logo }}",
+    "description": "Premium B2B supplier of flaxseed products — whole flaxseeds, milled meal, cold-pressed oil, organic flaxseeds, and flaxseed protein powder.",
+    "address": {
+      "@type": "PostalAddress"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "",
+      "contactType": "sales"
+    },
+    "sameAs": [
+      "https://linkedin.com/company/flaxseedspro",
+      "https://twitter.com/flaxseedspro"
+    ]
+  }
+  </script>
+
+  <!-- WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FlaxseedsPro Documentation",
+    "url": "{{ org_url }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ org_url }}/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ org_url }}/" },
+      { "@type": "ListItem", "position": 2, "name": "Products", "item": "{{ org_url }}/products/" }
+    ]
+  }
+  </script>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+{% endblock %}
+
+{% block footer %}
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        {{ config.copyright }}
+      </div>
+      <div class="md-footer-links">
+        <a href="{{ config.site_url }}/about/" title="About">About</a>
+        <a href="{{ config.site_url }}/resources/" title="Resources">Resources</a>
+        <a href="{{ config.site_url }}/faq/" title="FAQ">FAQ</a>
+      </div>
+      {% if config.extra.social %}
+        <div class="md-footer-social">
+          {% for social in config.extra.social %}
+            <a href="{{ social.link }}" title="{{ social.name }}" class="md-footer-social__link">
+              {% include ".icons/" ~ social.icon ~ ".svg" %}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+{% endblock %}
