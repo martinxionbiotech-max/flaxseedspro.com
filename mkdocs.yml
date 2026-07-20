@@ -1,7 +1,11 @@
+# V11 Enterprise Production Authority Edition
+# FlaxseedsPro Documentation — Everything exists for the main website
+
 site_name: FlaxseedsPro Documentation
-site_description: Comprehensive technical documentation for FlaxseedsPro premium flaxseed products, production processes, quality standards, and industry research.
+site_description: Technical documentation for premium flaxseed processing — hull, kernel, powder, gum, and oil fractions. HACCP | ISO 22000 | Organic.
 site_url: https://flaxseedspro.com
 site_author: FlaxseedsPro
+
 repo_url: https://github.com/flaxseedspro/docs
 repo_name: flaxseedspro/docs
 
@@ -26,19 +30,9 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
-    - content.tabs
     - content.tooltips
-    - header.autohide
 
 extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/company/flaxseedspro
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/flaxseedspro
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@flaxseedspro
-  generator: false
   analytics:
     provider: google
     property: G-XXXXXXXXXX
@@ -48,15 +42,10 @@ extra_css:
 
 plugins:
   - search
+  - sitemap
+  - redirects
   - tags:
       tags_file: tags.md
-  - sitemap
-  - awesome-pages
-  - glightbox
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
 
 markdown_extensions:
   - admonition
@@ -73,9 +62,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.smartsymbols
-  - pymdownx.emoji:
-      emoji_index: material.extensions.emoji.twemoji
-      emoji_generator: material.extensions.emoji.to_svg
+  - pymdownx.emoji
   - attr_list
   - md_in_html
   - footnotes
@@ -88,44 +75,29 @@ nav:
   - Home: index.md
   - Products:
       - products/index.md
-      - Whole Brown Flaxseeds: products/whole-brown-flaxseeds.md
-      - Whole Golden Flaxseeds: products/whole-golden-flaxseeds.md
-      - Milled Flaxseed Meal: products/milled-flaxseed-meal.md
-      - Cold-Pressed Flaxseed Oil: products/cold-pressed-flaxseed-oil.md
-      - Organic Flaxseeds: products/organic-flaxseeds.md
-      - Flaxseed Protein Powder: products/flaxseed-protein-powder.md
+      - Flaxseed Hull: products/flaxseed-hull.md
+      - Flaxseed Kernel: products/flaxseed-kernel.md
+      - Flaxseed Powder: products/flaxseed-powder.md
+      - Flaxseed Gum: products/flaxseed-gum.md
+      - Flaxseed Oil: products/flaxseed-oil.md
   - Production Equipment:
       - production-equipment/index.md
-      - Cleaning & Sorting: production-equipment/cleaning-sorting.md
-      - Dehulling System: production-equipment/dehulling-system.md
-      - Milling & Grinding: production-equipment/milling-grinding.md
-      - Cold Press Oil Extraction: production-equipment/cold-press-oil-extraction.md
-      - Drying & Packaging: production-equipment/drying-packaging.md
-      - Quality Lab Equipment: production-equipment/quality-lab-equipment.md
-      - Storage & Conveying: production-equipment/storage-conveying.md
-      - Automation & Control: production-equipment/automation-control.md
+      - Cleaning & Grading: production-equipment/cleaning-grading.md
+      - Dehulling & Separation: production-equipment/dehulling-separation.md
+      - Grinding & Milling: production-equipment/grinding-milling.md
+      - Oil Pressing: production-equipment/oil-pressing.md
+      - Gum Extraction: production-equipment/gum-extraction.md
+      - Drying & Stabilization: production-equipment/drying-stabilization.md
+      - Packaging & Storage: production-equipment/packaging-storage.md
   - Technical Documents:
       - technical-documents/index.md
-      - Specification Sheets: technical-documents/specification-sheets.md
-      - Processing Standards: technical-documents/processing-standards.md
-      - Quality Control Protocols: technical-documents/quality-control-protocols.md
+      - Processing Technology: technical-documents/processing-technology.md
+      - Quality Control: technical-documents/quality-control.md
   - FAQ: faq/index.md
   - Glossary: glossary/index.md
-  - Guides:
-      - guides/index.md
-      - Buyer's Guide: guides/buyers-guide.md
-      - Storage & Handling: guides/storage-handling.md
-      - Food Safety Compliance: guides/food-safety-compliance.md
-      - Supply Chain: guides/supply-chain.md
-  - Research:
-      - research/index.md
-      - Nutritional Studies: research/nutritional-studies.md
-      - Market Analysis: research/market-analysis.md
-      - Sustainability: research/sustainability.md
-  - White Papers:
-      - white-papers/index.md
-      - Omega-3 in Plant-Based Diets: white-papers/omega-3-plant-based.md
-      - Flaxseed Processing Technology: white-papers/flaxseed-processing-technology.md
+  - Guides: guides/index.md
+  - Research: research/index.md
+  - White Papers: white-papers/index.md
   - Certificates: certificates/index.md
   - Resources: resources/index.md
   - About: about/index.md

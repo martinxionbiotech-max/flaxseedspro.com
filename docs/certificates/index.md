@@ -2,29 +2,31 @@
 
 ---
 
-## Current Certifications
+## Food Safety & Quality
 
-| Certificate | Certifying Body | Certificate No. | Valid Until | Scope |
-|:------------|:---------------:|:---------------:|:-----------:|:------|
-| HACCP | SGS | HACCP-2025-001 | Dec 2026 | All products |
-| ISO 22000:2018 | SGS | FSMS-2025-001 | Dec 2027 | Food safety management |
-| USDA Organic | QAI | ORG-2025-001 | Jun 2027 | Organic flaxseeds |
-| Non-GMO Project | NSF | NGP-2025-001 | Mar 2027 | All conventional products |
-| Kosher (OU) | Orthodox Union | KOS-2025-001 | Jan 2027 | All products |
-| Gluten-Free | GFCO | GF-2025-001 | Aug 2026 | All products |
-| FSSC 22000 | SGS | FSSC-2025-001 | Dec 2027 | Food safety |
+| Certificate | Standard | Body | Valid Until |
+|:------------|:---------|:----:|:-----------:|
+| HACCP | Codex Alimentarius | SGS | Dec 2026 |
+| ISO 22000:2018 | Food Safety Management | SGS | Dec 2027 |
+| FSSC 22000 | GFSI-benchmarked | SGS | Dec 2027 |
 
-## Certified Products
+## Product Certifications
 
-| Product | HACCP | ISO 22000 | Organic | Non-GMO | Kosher | GF |
-|:--------|:-----:|:---------:|:-------:|:-------:|:------:|:--:|
-| Brown Flaxseeds | ✅ | ✅ | — | ✅ | ✅ | ✅ |
-| Golden Flaxseeds | ✅ | ✅ | — | ✅ | ✅ | ✅ |
-| Milled Meal | ✅ | ✅ | — | ✅ | ✅ | ✅ |
-| Cold-Pressed Oil | ✅ | ✅ | — | ✅ | ✅ | ✅ |
-| Organic Flaxseeds | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Protein Powder | ✅ | ✅ | — | ✅ | ✅ | ✅ |
+| Certificate | Standard | Body | Valid Until |
+|:------------|:---------|:----:|:-----------:|
+| USDA Organic | NOP | QAI | Jun 2027 |
+| Non-GMO Project Verified | Non-GMO Standard | NSF | Mar 2027 |
+| Kosher | OU Standard | Orthodox Union | Jan 2027 |
+| Gluten-Free | GFCO Standard | GFCO | Aug 2026 |
+
+## Regulatory Compliance
+
+| Regulation | Scope | Status |
+|:-----------|:-------|:-------|
+| FSMA (FSVP) | USA imports | Compliant |
+| EU Food Law 178/2002 | EU imports | Compliant |
+| China Food Safety Law | China exports | Compliant |
 
 ---
 
-> Certificate copies are available for download upon request. [Contact our compliance team](about/index.md) to verify current certification status.
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Certificate copies available on request.**

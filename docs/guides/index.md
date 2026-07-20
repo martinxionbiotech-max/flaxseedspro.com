@@ -2,13 +2,16 @@
 
 ---
 
-Practical guides for buyers, quality managers, and supply chain professionals.
+## Technical SOPs
 
-<div class="grid cards" markdown>
+| Guide | Method | Application |
+|:------|:-------|:------------|
+| Moisture Determination | AOAC 925.10 — Oven drying at 105°C | All products |
+| Fat Determination | AOAC 920.39 — Soxhlet extraction | Seeds, meal, cake |
+| Protein Determination | AOAC 984.13 — Kjeldahl (N×6.25) | All products |
+| ALA Quantification | AOCS Ce 1j-07 — GC-FID | Oil, fatty samples |
+| Dietary Fiber | AOAC 991.43 — Enzymatic-gravimetric | Hull, powder |
 
--   :material-cart: **Buyer's Guide** — How to evaluate and select flaxseed suppliers
--   :material-warehouse: **Storage & Handling** — Best practices for shelf life optimization
--   :material-shield-check: **Food Safety Compliance** — Navigating regulations and certifications
--   :material-truck: **Supply Chain** — Logistics, documentation, and shipping considerations
+---
 
-</div>
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Full SOPs available to qualified buyers.**

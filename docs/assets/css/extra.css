@@ -1,31 +1,23 @@
-/* FlaxseedsPro Extra Styles */
+/* FlaxseedsPro V11 Extra Styles */
 
 :root {
-  --md-primary-fg-color:        #283593;
-  --md-primary-fg-color--light: #5c6bc0;
-  --md-primary-fg-color--dark:  #1a237e;
-  --md-accent-fg-color:         #ff8f00;
+  --md-primary-fg-color:        #1a237e;
+  --md-primary-fg-color--light: #534bae;
+  --md-primary-fg-color--dark:  #000051;
+  --md-accent-fg-color:         #ff6f00;
 }
 
-/* Logo sizing */
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  height: 2rem;
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
-/* Card grid styling */
-.md-typeset .grid.cards {
-  grid-gap: 0.8rem;
+.md-typeset h2 {
+  font-weight: 600;
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+  padding-bottom: 0.2rem;
 }
 
-.md-typeset .grid.cards > ul > li,
-.md-typeset .grid.cards > ol > li,
-.md-typeset .grid.cards > * > li {
-  border-radius: 8px;
-  padding: 0.8rem 1rem;
-}
-
-/* Tables */
 .md-typeset table:not([class]) {
   font-size: 0.75rem;
 }
@@ -36,33 +28,19 @@
   font-weight: 600;
 }
 
-/* Footer social links */
-.md-footer-social {
-  display: flex;
-  gap: 0.8rem;
-  align-items: center;
+.md-typeset table th:first-child {
+  border-radius: 4px 0 0 0;
 }
 
-.md-footer-social__link svg {
-  fill: currentColor;
-  width: 1.2rem;
-  height: 1.2rem;
+.md-typeset table th:last-child {
+  border-radius: 0 4px 0 0;
 }
 
-/* Homepage hero section */
-.md-typeset h1:first-of-type {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+.md-footer-links a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.75rem;
 }
 
-/* Admonition styling */
-.md-typeset .admonition {
-  font-size: 0.8rem;
-}
-
-/* Tags */
-.md-tags {
-  display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
+.md-footer-links a:hover {
+  color: white;
 }

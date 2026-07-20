@@ -2,34 +2,26 @@
 
 ---
 
-## Downloads & Links
+## Industry Organisations
 
-### Technical Resources
-- [Product Specification Sheets](technical-documents/specification-sheets.md)
-- [Quality Control Protocols](technical-documents/quality-control-protocols.md)
-- [Processing Standards](technical-documents/processing-standards.md)
-- [Certificate of Analysis Template](about/index.md) (contact for sample)
+- [American Oil Chemists' Society (AOCS)](https://www.aocs.org) — Analytical methods, proficiency testing
+- [AOAC International](https://www.aoac.org) — Official methods of analysis
+- [Codex Alimentarius](https://www.fao.org/fao-who-codexalimentarius) — International food standards
+- [Flax Council of Canada](https://flaxcouncil.ca) — Industry data, nutrition research
+- [GFSI](https://mygfsi.com) — Global Food Safety Initiative benchmarked schemes
 
-### Guides
-- [Buyer's Guide](guides/buyers-guide.md) — How to evaluate flaxseed suppliers
-- [Storage & Handling Guide](guides/storage-handling.md) — Best practices for product stability
-- [Food Safety Compliance](guides/food-safety-compliance.md) — Regulatory requirements
+## Regulatory Authorities
 
-### Research
-- [Nutritional Studies](research/nutritional-studies.md) — Health benefit research
-- [Market Analysis](research/market-analysis.md) — Industry data and trends
-- [Sustainability](research/sustainability.md) — Environmental impact reporting
+- [USDA](https://www.usda.gov) — Organic certification (NOP)
+- [FDA](https://www.fda.gov) — FSMA compliance
+- [EFSA](https://www.efsa.europa.eu) — EU food safety, nutrition claims
 
-### White Papers
-- [Omega-3 in Plant-Based Diets](white-papers/omega-3-plant-based.md)
-- [Flaxseed Processing Technology](white-papers/flaxseed-processing-technology.md)
+## Technical References
 
-### Glossary
-- [Industry Terminology](glossary/index.md)
+- AOAC Official Methods of Analysis (current edition)
+- AOCS Official Methods and Recommended Practices (current edition)
+- Codex Standard for Fat Spreads and Blended Spreads (CXS 256-2007)
 
-## Industry Links
+---
 
-- [American Oil Chemists' Society (AOCS)](https://www.aocs.org)
-- [Flax Council of Canada](https://flaxcouncil.ca)
-- [Codex Alimentarius](https://www.fao.org/fao-who-codexalimentarius)
-- [USDA FoodData Central](https://fdc.nal.usda.gov)
+**→ [FlaxseedsPro.com](https://flaxseedspro.com)**

@@ -3,38 +3,28 @@
 {% block extrahead %}
   {% set org_name = "FlaxseedsPro" %}
   {% set org_url = "https://flaxseedspro.com" %}
-  {% set org_logo = "https://flaxseedspro.com/assets/images/logo.svg" %}
+  {% set doc_url = "https://docs.flaxseedspro.com" %}
 
-  <!-- Organization Schema -->
+  <!-- 1. Organization -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "FlaxseedsPro",
     "url": "{{ org_url }}",
-    "logo": "{{ org_logo }}",
-    "description": "Premium B2B supplier of flaxseed products — whole flaxseeds, milled meal, cold-pressed oil, organic flaxseeds, and flaxseed protein powder.",
-    "address": {
-      "@type": "PostalAddress"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "",
-      "contactType": "sales"
-    },
+    "description": "Premium B2B supplier of flaxseed fractions — hull, kernel, powder, gum, and oil.",
     "sameAs": [
-      "https://linkedin.com/company/flaxseedspro",
-      "https://twitter.com/flaxseedspro"
+      "https://linkedin.com/company/flaxseedspro"
     ]
   }
   </script>
 
-  <!-- WebSite Schema -->
+  <!-- 2. WebSite (main site) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "FlaxseedsPro Documentation",
+    "name": "FlaxseedsPro",
     "url": "{{ org_url }}",
     "potentialAction": {
       "@type": "SearchAction",
@@ -44,14 +34,51 @@
   }
   </script>
 
-  <!-- BreadcrumbList Schema -->
+  <!-- 3. WebPage (current documentation page) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ page.title }} — FlaxseedsPro Documentation",
+    "description": "{{ page.meta.get('description', '') }}",
+    "url": "{{ doc_url }}/{{ page.url }}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "FlaxseedsPro Documentation",
+      "url": "{{ doc_url }}"
+    },
+    "about": {
+      "@type": "Organization",
+      "name": "FlaxseedsPro",
+      "url": "{{ org_url }}"
+    }
+  }
+  </script>
+
+  <!-- 4. BreadcrumbList -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ org_url }}/" },
-      { "@type": "ListItem", "position": 2, "name": "Products", "item": "{{ org_url }}/products/" }
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "FlaxseedsPro",
+        "item": "{{ org_url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Documentation",
+        "item": "{{ doc_url }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ page.title }}",
+        "item": "{{ doc_url }}/{{ page.url }}"
+      }
     ]
   }
   </script>
@@ -69,19 +96,10 @@
         {{ config.copyright }}
       </div>
       <div class="md-footer-links">
-        <a href="{{ config.site_url }}/about/" title="About">About</a>
-        <a href="{{ config.site_url }}/resources/" title="Resources">Resources</a>
-        <a href="{{ config.site_url }}/faq/" title="FAQ">FAQ</a>
+        <a href="https://flaxseedspro.com" title="Main Website">FlaxseedsPro.com</a>
+        &nbsp;|&nbsp;
+        <a href="{{ config.site_url }}about/" title="Contact">Contact</a>
       </div>
-      {% if config.extra.social %}
-        <div class="md-footer-social">
-          {% for social in config.extra.social %}
-            <a href="{{ social.link }}" title="{{ social.name }}" class="md-footer-social__link">
-              {% include ".icons/" ~ social.icon ~ ".svg" %}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
     </div>
   </div>
 </footer>

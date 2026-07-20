@@ -1,9 +1,4 @@
 mkdocs>=1.6.0
 mkdocs-material>=9.5.0
-mkdocs-awesome-pages-plugin
-mkdocs-glightbox
-mkdocs-minify-plugin
 mkdocs-sitemap-plugin
-pymdown-extensions
-Pillow
-cairosvg
+mkdocs-redirects

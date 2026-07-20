@@ -2,12 +2,16 @@
 
 ---
 
-Curated research and analysis on flaxseed nutrition, market trends, and sustainability practices.
+## Research Focus Areas
 
-<div class="grid cards" markdown>
+| Area | Scope | Status |
+|:-----|:------|:-------|
+| Lignan bioavailability | SDG metabolism in human gut microbiome | Published |
+| Flaxseed gum as clean-label thickener | Rheology and stability in acidic beverages | Active |
+| Omega-3 retention in baked goods | ALA stability during thermal processing | Published |
+| Protein functionality | Emulsification and foaming of flax protein isolate | Active |
+| Sustainable processing | Water and energy footprint reduction | Active |
 
--   :material-microscope: **Nutritional Studies** — Scientific research on flaxseed health benefits
--   :material-chart-line: **Market Analysis** — Global flaxseed market data and forecasts
--   :material-leaf: **Sustainability** — Environmental impact and sustainable production
+---
 
-</div>
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Full research publications available on request.**

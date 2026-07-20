@@ -1,85 +1,47 @@
 # FlaxseedsPro Documentation
 
-Welcome to the **FlaxseedsPro** technical documentation portal — your comprehensive resource for premium flaxseed products, processing technologies, quality standards, and industry expertise.
+**Enterprise Production Authority Edition — V11**
 
 ---
 
-## 🏆 Our Product Range
-
 <div class="grid cards" markdown>
 
--   :material-seed: **Whole Flaxseeds**
-    Brown and golden varieties, 99.9% purity, high ALA omega-3 content
-    [:octicons-arrow-right-24: Explore](products/)
+-   :material-seed: **Flaxseed Hull**
+    Fiber 70–80%, SDG lignans 7–10 mg/g, hydration capacity 6–8 g/g
+    [:octicons-arrow-right-24: Specs](products/flaxseed-hull.md)
 
--   :material-grinder: **Milled Flaxseed Meal**
-    Freshly ground, stabilized, available in fine and medium grinds
-    [:octicons-arrow-right-24: Explore](products/milled-flaxseed-meal.md)
+-   :material-barley: **Flaxseed Kernel**
+    Protein 30–35%, Fat 40–45%, complete amino acid profile
+    [:octicons-arrow-right-24: Specs](products/flaxseed-kernel.md)
 
--   :material-oil: **Cold-Pressed Flaxseed Oil**
-    Low-temperature extraction, nitrogen-flushed, high lignan retention
-    [:octicons-arrow-right-24: Explore](products/cold-pressed-flaxseed-oil.md)
+-   :material-powder: **Flaxseed Powder**
+    Full-fat & defatted grades, 6-level particle size (20–80 mesh)
+    [:octicons-arrow-right-24: Specs](products/flaxseed-powder.md)
 
--   :material-leaf: **Organic Flaxseeds**
-    USDA/EU organic certified, non-GMO verified
-    [:octicons-arrow-right-24: Explore](products/organic-flaxseeds.md)
+-   :material-gel: **Flaxseed Gum**
+    Polysaccharide 75–85%, monosaccharide profile, rheology
+    [:octicons-arrow-right-24: Specs](products/flaxseed-gum.md)
 
--   :material-protein: **Flaxseed Protein Powder**
-    40-50% protein content, ideal for plant-based formulations
-    [:octicons-arrow-right-24: Explore](products/flaxseed-protein-powder.md)
+-   :material-oil: **Flaxseed Oil**
+    12 quality parameters, 5 fatty acids, tocopherol profile
+    [:octicons-arrow-right-24: Specs](products/flaxseed-oil.md)
 
 </div>
 
 ---
 
-## 🔧 Processing & Equipment
+## Processing Authority
 
-<div class="grid cards" markdown>
-
--   :material-factory: **Our Facility**
-    State-of-the-art processing with HACCP and ISO 22000 certification
-    [:octicons-arrow-right-24: Equipment](production-equipment/)
-
--   :material-test-tube: **Quality Control**
-    Rigorous testing protocols at every production stage
-    [:octicons-arrow-right-24: Protocols](technical-documents/quality-control-protocols.md)
-
--   :material-file-document: **Technical Specs**
-    Detailed product specification sheets and standards
-    [:octicons-arrow-right-24: Documents](technical-documents/)
-
-</div>
+| Line | Technology | Capacity | Certification |
+|:-----|:-----------|:--------:|:-------------:|
+| Cleaning & Grading | Magnetic (10K Gauss) + Optical Sorting | 8 MT/hr | HACCP |
+| Dehulling | Centrifugal / Roller | 3 MT/hr | ISO 22000 |
+| Grinding | Hammer / Disc / Pin + Cryogenic (–150°C) | 2 MT/hr | FSSC 22000 |
+| Oil Pressing | Cold Press (<40°C) + Solvent Extraction | 500 kg/hr | Organic |
+| Gum Extraction | Ethanol Precipitation + Spray Drying | 200 kg/hr | Kosher |
+| Drying | Microwave / Steam / IR / Fluidized Bed | 3 MT/hr | Gluten-Free |
+| Packaging | VFFS + N₂ Flush (<2% O₂) | 600 bph | Non-GMO |
 
 ---
 
-## 📊 Quick Reference
-
-| Specification | Brown Flaxseed | Golden Flaxseed | Milled Meal | Cold-Pressed Oil |
-|:--------------|:--------------:|:---------------:|:-----------:|:-----------------:|
-| ALA Omega-3 | 52-57% | 52-57% | 52-57% | 55-60% |
-| Protein | 18-24% | 18-24% | 18-24% | — |
-| Dietary Fiber | 27-28% | 27-28% | 27-28% | — |
-| Moisture | < 8% | < 8% | < 6% | < 0.1% |
-| Shelf Life | 12 mo | 12 mo | 6-9 mo | 18 mo |
-
----
-
-## 📋 Certifications
-
-- ✅ **HACCP** — Hazard Analysis Critical Control Point
-- ✅ **ISO 22000:2018** — Food Safety Management System
-- ✅ **USDA Organic** — Certified Organic
-- ✅ **Non-GMO Project** — Verified
-- ✅ **Kosher** — Orthodox Union Certified
-- ✅ **Gluten-Free** — Certified Gluten-Free
-
----
-
-## 🚀 Quick Links
-
-- [Product Catalog](products/) — Browse all products with specifications
-- [Buyer's Guide](guides/buyers-guide.md) — How to choose the right flaxseed product
-- [FAQ](faq/) — Frequently asked questions
-- [Glossary](glossary/) — Industry terminology
-- [White Papers](white-papers/) — In-depth technical reports
-- [Contact Us](about/) — Get in touch with our team
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Premium Flaxseed Fractions for Industry**

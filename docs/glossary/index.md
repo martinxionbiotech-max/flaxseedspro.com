@@ -2,46 +2,38 @@
 
 ---
 
-## A
+- **ALA** — α-Linolenic acid (C18:3n-3). Essential omega-3 fatty acid; primary lipid in flaxseed (55–60% of total fat).
 
-**ALA (Alpha-Linolenic Acid)** — An essential omega-3 fatty acid found in plant sources, particularly flaxseeds. The body cannot produce ALA; it must be obtained through diet.
+- **Bulk density** — Mass per unit volume of loose powder or granular material, expressed in g/mL.
 
-**AOAC** — Association of Official Analytical Chemists. International standards for analytical testing methods.
+- **Cold pressing** — Mechanical oil extraction at temperatures below 40°C, without solvent or heat pre-treatment.
 
-**Aspiration** — A separation process using air flow to remove lightweight materials (hulls, dust) from heavier seeds.
+- **COA** — Certificate of Analysis. Document listing analytical results for a specific production batch.
 
-## C
+- **Dehulling** — Mechanical removal of the fibrous seed coat (hull) from the lipid-rich kernel.
 
-**COA (Certificate of Analysis)** — A document certifying the analytical results of a specific production batch, including nutritional parameters and microbiological results.
+- **HACCP** — Hazard Analysis Critical Control Point. Systematic food safety preventive system.
 
-**Cold Pressing** — Mechanical oil extraction performed at temperatures below 40°C to preserve heat-sensitive nutrients.
+- **Hull** — Outer fibrous layer of the flaxseed, comprising 30–35% of seed mass by weight.
 
-## H
+- **Lignan** — Phenolic compound with antioxidant properties. Flaxseed hull is the richest known source of SDG (secoisolariciresinol diglucoside).
 
-**HACCP (Hazard Analysis Critical Control Point)** — A systematic preventive approach to food safety that identifies, evaluates, and controls hazards throughout production.
+- **Mucilage** — Water-soluble polysaccharide complex extracted from the hull. Also called flaxseed gum.
 
-**HPLC (High-Performance Liquid Chromatography)** — An analytical technique used to separate, identify, and quantify components in a mixture.
+- **Peroxide value** — Measure of primary oxidation products in oil. Lower values indicate fresher oil.
 
-## I
+- **Pseudoplastic** — Shear-thinning flow behaviour. Viscosity decreases with increasing shear rate.
 
-**ISO 22000** — International standard specifying requirements for a food safety management system.
+- **SDG** — Secoisolariciresinol diglucoside. Principal lignan in flaxseed.
 
-## L
+- **Soxhlet** — Laboratory method for gravimetric fat determination using solvent reflux.
 
-**Lignans (SDG)** — Plant compounds with antioxidant properties. Flaxseeds are the richest dietary source of secoisolariciresinol diglucoside (SDG).
+- **Tocopherols** — Fat-soluble antioxidants (vitamin E family). γ-tocopherol is the dominant form in flaxseed oil.
 
-## N
+- **VFFS** — Vertical Form-Fill-Seal. Automated packaging machine that forms bags from roll film.
 
-**NIR (Near-Infrared Spectroscopy)** — A rapid, non-destructive analytical method for determining moisture, protein, fat, and fiber content.
+- **WHC** — Water Holding Capacity. Mass of water retained per gram of dry material.
 
-**Non-GMO** — Produced without genetically modified organisms. Verified through supply chain tracing and testing.
+---
 
-## P
-
-**Peroxide Value** — A measure of rancidity in oils. Lower values indicate fresher oil with less oxidation.
-
-## S
-
-**SCADA (Supervisory Control and Data Acquisition)** — A control system architecture for industrial process monitoring and control.
-
-**Soxhlet Extraction** — A laboratory method for determining fat content using solvent extraction.
+**→ [FlaxseedsPro.com](https://flaxseedspro.com)**

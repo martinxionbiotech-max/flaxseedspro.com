@@ -2,46 +2,38 @@
 
 ---
 
-## Products
+## Raw Material & Sourcing
 
-### What types of flaxseeds do you offer?
-We offer whole brown flaxseeds, whole golden flaxseeds, milled flaxseed meal, cold-pressed flaxseed oil, certified organic flaxseeds, and flaxseed protein powder.
+**Q: Where do you source your flaxseed?**
+A: Primary sourcing regions include Canada (Saskatchewan), Kazakhstan, and select European growers. All suppliers are audited annually.
 
-### What is the difference between brown and golden flaxseeds?
-Nutritionally, they are nearly identical. Brown flaxseeds have a slightly stronger flavor; golden flaxseeds have a milder taste and lighter appearance.
+**Q: What varieties do you process?**
+A: Brown flaxseed (Linum usitatissimum L.) is standard. Golden flaxseed is available on request. All varieties are non-GMO.
 
-### Are your products organic?
-We offer certified organic flaxseeds (USDA Organic and EU equivalent). Our conventional products are non-GMO but not certified organic.
+## Processing
 
-### What is the ALA omega-3 content of your flaxseeds?
-Our whole flaxseeds contain 52-57% ALA as a percentage of total fatty acids.
+**Q: What is the difference between cold-pressed and solvent-extracted oil?**
+A: Cold-pressed oil is extracted mechanically below 40°C, preserving native flavour and antioxidants. Solvent extraction achieves higher yield (99% vs. 35%) and is used for defatted meal production.
 
-## Technical
+**Q: Can you customise particle size for powder products?**
+A: Yes. Six standard mesh grades (20–100 mesh) are available. Custom specifications within ±1 mesh tolerance require minimum 5 MT per order.
 
-### What is the shelf life of your products?
-Whole flaxseeds: 12 months, milled meal: 6-9 months, cold-pressed oil: 18 months, protein powder: 12 months.
+## Quality
 
-### How should flaxseed products be stored?
-Cool, dry conditions (< 25°C, < 60% RH), away from direct sunlight. Refrigerate oil after opening.
+**Q: What testing is performed on every batch?**
+A: Every batch is tested for moisture, protein, fat, ALA content, and microbiology (SPC, Y&M, coliforms, Salmonella). COA is provided with each shipment.
 
-### Do you provide Certificates of Analysis?
-Yes, every batch ships with a COA. Custom COA formats are available upon request.
+**Q: What is the ALA omega-3 retention after processing?**
+A: Cold pressing retains > 95% of native ALA. Milling retains > 95% in defatted powder and > 90% in full-fat powder. Cryogenic milling retains > 98%.
 
-## Ordering
+## Logistics
 
-### What are your minimum order quantities?
-MOQs vary by product: 1 MT for whole seeds, 500 kg for milled meal, 200 L for oil. Contact us for specific MOQs.
+**Q: What is your MOQ?**
+A: 1 MT for standard products, 500 kg for powders, 200 L for oil. Organic products require 500 kg minimum.
 
-### What packaging options are available?
-We offer 20-25 kg bags, 1 MT bulk bags, drums (20-200 L), IBC totes, and custom packaging.
+**Q: Do you ship samples internationally?**
+A: Yes. Free samples (1 kg) are available for qualified buyers. Shipping costs are covered by the buyer.
 
-### Do you ship internationally?
-Yes, we ship globally. We handle all export documentation and can arrange FOB, CIF, or DDP terms.
+---
 
-## Certifications
-
-### What food safety certifications do you hold?
-HACCP, ISO 22000:2018, FSSC 22000, Kosher, Gluten-Free, and Non-GMO Project Verified.
-
-### Are you audited by third parties?
-Yes. Our facility is audited annually by our certification bodies and by customers upon request.
+**→ [FlaxseedsPro.com](https://flaxseedspro.com)**

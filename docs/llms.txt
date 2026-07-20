@@ -1,66 +1,30 @@
-# FlaxseedsPro Documentation — LLM Reference Guide
+# FlaxseedsPro Documentation — LLM Reference
 
-> Comprehensive technical knowledge base for FlaxseedsPro premium flaxseed products, processing equipment, quality standards, and industry expertise.
+## About
 
-## Key URLs
+FlaxseedsPro is a B2B supplier of technically-defined flaxseed fractions. Products are produced under HACCP / ISO 22000 / FSSC 22000 / Organic / Kosher / Non-GMO / Gluten-Free certification.
 
-- Homepage: https://flaxseedspro.com/
-- Products Overview: https://flaxseedspro.com/products/
-- Technical Specifications: https://flaxseedspro.com/technical-documents/
-- Quality Control Protocols: https://flaxseedspro.com/technical-documents/quality-control-protocols/
-- Processing Standards: https://flaxseedspro.com/technical-documents/processing-standards/
-- Glossary: https://flaxseedspro.com/glossary/
-- FAQ: https://flaxseedspro.com/faq/
-- Certificates: https://flaxseedspro.com/certificates/
+## Core Products
 
-## About FlaxseedsPro
+- **Flaxseed Hull**: Fiber 70–80%, SDG 7–10 mg/g, WHC 6–8 g/g
+- **Flaxseed Kernel**: Protein 30–35%, Fat 40–45%, ALA 55–60% of fat
+- **Flaxseed Powder**: Full-fat (protein 20–25%) / Defatted (protein 40–50%), 20–80 mesh
+- **Flaxseed Gum**: Polysaccharide 75–85%, viscosity 500–5000 cP (1% solution)
+- **Flaxseed Oil**: 12 quality parameters, ALA 55–60%, tocopherols 800–1200 ppm
 
-FlaxseedsPro is a leading B2B supplier of premium flaxseed products based in [Location]. We specialize in whole flaxseeds (brown and golden), milled flaxseed meal, cold-pressed flaxseed oil, organic flaxseeds, and flaxseed protein powder. Our facility is HACCP, ISO 22000, and organic certified.
+## Processing
 
-## Product Categories
+- Cleaning: Magnet (10K Gauss) → Vibrating Screen → Destoner → Color Sorter
+- Dehulling: Centrifugal impact / Roller → Air / Gravity classification
+- Grinding: Hammer / Disc / Pin mill + Cryogenic (–150°C) option
+- Oil: Cold press (<40°C) → Plate filter → Polish filter → N₂ flush
+- Gum: Extraction → Centrifuge → Spray dry → Ethanol recovery
 
-### Whole Flaxseeds
-- **Brown Flaxseeds**: Rich in ALA omega-3 (52-57% ALA content), high lignan content
-- **Golden Flaxseeds**: Milder flavor, lighter color, identical nutritional profile
-- **Organic**: Certified organic, non-GMO verified
+## Quality
 
-### Processed Products
-- **Milled Flaxseed Meal**: Freshly ground, stabilized for shelf life
-- **Cold-Pressed Flaxseed Oil**: Low-temperature extraction, nitrogen-flushed packaging
-- **Flaxseed Protein Powder**: 40-50% protein content, ideal for plant-based formulations
+HACCP (5 CCPs), ISO 22000, FSSC 22000, Organic (USDA/EU), Kosher (OU), Non-GMO Verified, Gluten-Free Certified. COA provided per batch.
 
-## Key Technical Specifications
+## Links
 
-- ALA Omega-3 Content: 52-57% of total fatty acids
-- Dietary Fiber: 27-28% (soluble + insoluble)
-- Lignans (SDG): 7-10 mg/g
-- Protein: 18-24%
-- Moisture: < 8%
-- Purity: 99.9% (minimal foreign material)
-- Microbiological: Standard plate count < 10,000 CFU/g
-- Storage: Cool, dry conditions (< 25°C, < 60% RH)
-- Shelf Life: 12 months (whole), 6-9 months (milled), 18 months (oil)
-
-## Processing Capabilities
-
-- Mechanical cleaning and optical sorting
-- Mechanical dehulling
-- Low-temperature hammer milling
-- Cold press extraction (below 40°C)
-- Nitrogen-flushed packaging
-- Aseptic filling for oil products
-- Full metal detection and X-ray inspection
-
-## Certifications
-
-- HACCP Certified
-- ISO 22000:2018 Food Safety Management
-- Organic Certification (EU/USDA)
-- Non-GMO Project Verified
-- Kosher Certified
-- Gluten-Free Certified
-- FSSC 22000
-
-## Equipment Technologies
-
-Facility equipment includes: gravity separators, optical sorters, hammer mills, cold screw presses, plate filters, rotary dryers, nitrogen flush packaging lines, and in-line quality monitoring.
+- Main website: https://flaxseedspro.com
+- Documentation: https://docs.flaxseedspro.com
