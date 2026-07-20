@@ -42,8 +42,6 @@ extra_css:
 
 plugins:
   - search
-  - sitemap
-  - redirects
   - tags:
       tags_file: tags.md
 

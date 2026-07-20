@@ -1,4 +1,2 @@
 mkdocs>=1.6.0
-mkdocs-material>=9.5.0
-mkdocs-sitemap-plugin
-mkdocs-redirects
+mkdocs-material>=9.7.0
