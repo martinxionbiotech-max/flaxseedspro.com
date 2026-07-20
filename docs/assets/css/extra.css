@@ -36,11 +36,33 @@
   border-radius: 0 4px 0 0;
 }
 
+/* Footer */
+.md-footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
 .md-footer-links a {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.75rem;
+  transition: color 0.15s;
 }
 
 .md-footer-links a:hover {
   color: white;
+  text-decoration: underline;
+}
+
+.md-footer-link-main {
+  color: #ffab00 !important;
+  font-weight: 600;
+  font-size: 0.8rem !important;
+}
+
+.md-footer-sep {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 0.75rem;
+  user-select: none;
 }

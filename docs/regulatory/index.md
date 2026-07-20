@@ -12,4 +12,4 @@ FlaxseedsPro products are manufactured and traded in compliance with the regulat
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — FSMA, EU & China Compliant Flaxseed Imports at [FlaxseedsPro Regulatory](https://flaxseedspro.com/compliance)**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — FSMA, EU & China Compliant Flaxseed Imports**

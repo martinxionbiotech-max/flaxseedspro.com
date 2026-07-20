@@ -37,6 +37,6 @@ FlaxseedsPro is a B2B supplier of technically-defined flaxseed fractions. Facili
 
 ## Links
 - Main website: https://flaxseedspro.com
-- Products: https://flaxseedspro.com/products
+- Products: https://flaxseedspro.com/flaxseed-products/
 - Documentation: https://docs.flaxseedspro.com
-- Contact: https://flaxseedspro.com/contact
+- Contact: https://flaxseedspro.com/contact/

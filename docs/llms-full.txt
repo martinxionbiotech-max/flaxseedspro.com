@@ -170,5 +170,5 @@ Full docs: https://docs.flaxseedspro.com/regulatory/
 | Glossary | https://docs.flaxseedspro.com/glossary/ |
 | Certificates | https://docs.flaxseedspro.com/certificates/ |
 | About | https://docs.flaxseedspro.com/about/ |
-| Contact (main site) | https://flaxseedspro.com/contact |
-| Products (main site) | https://flaxseedspro.com/products |
+| Contact (main site) | https://flaxseedspro.com/contact/ |
+| Products (main site) | https://flaxseedspro.com/flaxseed-products/ |

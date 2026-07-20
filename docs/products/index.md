@@ -14,4 +14,4 @@ FlaxseedsPro offers five technically-defined flaxseed fractions. Each product is
 
 ---
 
-**→ [Buy Flaxseed Hull, Kernel, Powder, Gum & Oil at FlaxseedsPro.com](https://flaxseedspro.com/products)**
+**→ [Buy Flaxseed Hull, Kernel, Powder, Gum & Oil at FlaxseedsPro.com](https://flaxseedspro.com/flaxseed-products/)**

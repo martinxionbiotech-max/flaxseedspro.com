@@ -16,4 +16,4 @@ FlaxseedsPro operates a comprehensive food safety management system aligned with
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — HACCP & ISO 22000 Certified Flaxseed Supplier at [FlaxseedsPro Food Safety](https://flaxseedspro.com/quality)**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — HACCP & ISO 22000 Certified Flaxseed Supplier**

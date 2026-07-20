@@ -56,4 +56,4 @@ FlaxseedsPro Documentation
 
 ---
 
-**→ [Buy Flaxseed Fractions at FlaxseedsPro.com](https://flaxseedspro.com/products) — Request pricing, samples, and technical support for hull, kernel, powder, gum, and oil.**
+**→ [Buy Flaxseed Fractions at FlaxseedsPro.com](https://flaxseedspro.com/flaxseed-products/) — Request pricing, samples, and technical support for hull, kernel, powder, gum, and oil.**

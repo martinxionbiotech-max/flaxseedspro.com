@@ -13,4 +13,4 @@ Core technical references for flaxseed processing technology, process control an
 
 ---
 
-**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Premium Flaxseed Fractions for Industry at [FlaxseedsPro Products](https://flaxseedspro.com/products)**
+**→ [FlaxseedsPro.com](https://flaxseedspro.com) — Premium Flaxseed Fractions for Industry at [FlaxseedsPro Products](https://flaxseedspro.com/flaxseed-products/)**
