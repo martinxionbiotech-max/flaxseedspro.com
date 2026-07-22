@@ -23,12 +23,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - search.highlight
-    - search.share
     - content.code.copy
     - content.tooltips
 
@@ -41,7 +38,6 @@ extra_css:
   - assets/css/extra.css
 
 plugins:
-  - search
   - tags:
       tags_file: tags.md
 
